@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { EpisodesController } from './episodes.controller';
-import { ConfigModule } from 'src/config/config.module';
+import { ConfigModule } from '../config/config.module';
 import { EpisodesService } from './episodes.service';
 
 describe('EpisodesController', () => {
